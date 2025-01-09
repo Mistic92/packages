@@ -400,7 +400,7 @@ redeeming offer codes, see [Implementing Offer Codes in Your App](https://develo
 
 ```dart
 InAppPurchaseStoreKitPlatformAddition iosPlatformAddition =
-  InAppPurchase.getPlatformAddition<InAppPurchaseStoreKitPlatformAddition>();
+  InAppPurchase.instance.getPlatformAddition<InAppPurchaseStoreKitPlatformAddition>();
 iosPlatformAddition.presentCodeRedemptionSheet();
 ```
 
